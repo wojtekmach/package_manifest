@@ -1,0 +1,2 @@
+defmodule Manifest do
+end
