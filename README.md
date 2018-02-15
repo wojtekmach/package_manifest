@@ -2,6 +2,10 @@
 
 Keeps a manifest.txt of files included in the package.
 
+Only files listed in `manifest.txt` will be included in the final package so
+this file is useful to double-check if all required (and none unwanted) files
+are there.
+
 ## Installation
 
 1. Add to deps:
