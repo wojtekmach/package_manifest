@@ -1,0 +1,5 @@
+lib/manifest.ex
+lib/mix/tasks/compile.manifest.ex
+.formatter.exs
+mix.exs
+README.md
