@@ -3,11 +3,11 @@ defmodule Manifest.MixProject do
 
   def project do
     [
-      app: :manifest,
+      app: :package_manifest,
       version: "0.1.0",
       elixir: "~> 1.3",
       start_permanent: Mix.env() == :prod,
-      compilers: Mix.compilers() ++ [:manifest],
+      compilers: Mix.compilers() ++ [:package_manifest],
       deps: deps()
     ]
   end

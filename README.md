@@ -1,4 +1,4 @@
-# Manifest
+# PackageManifest
 
 Automatically maintains a manifest.txt of files that would be included in a package.
 
@@ -13,7 +13,7 @@ are there.
    ```elixir
    def deps do
      [
-       {:manifest, github: "wojtekmach/manifest"}
+       {:package_manifest, github: "wojtekmach/package_manifest"}
      ]
    end
    ```
@@ -26,7 +26,7 @@ are there.
        [
          app: :foo,
          version: "0.1.0",
-   +     compilers: Mix.compilers() ++ [:manifest]
+   +     compilers: Mix.compilers() ++ [:package_manifest]
          deps: deps()
        ]
      end
