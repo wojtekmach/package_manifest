@@ -4,3 +4,4 @@ lib/package_manifest.ex
 .formatter.exs
 mix.exs
 README.md
+manifest.txt

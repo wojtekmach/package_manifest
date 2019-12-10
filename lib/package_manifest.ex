@@ -1,8 +1,8 @@
 # Based on https://github.com/hexpm/hex/blob/v0.17.3/lib/mix/tasks/hex.build.ex
 
 defmodule PackageManifest do
-  @default_files ~w(lib priv .formatter.exs mix.exs README* readme* LICENSE*
-                    license* CHANGELOG* changelog* src)
+  @default_files ~w(lib priv src .formatter.exs mix.exs README* readme* LICENSE*
+                    license* CHANGELOG* changelog* manifest.txt)
 
   def write!() do
     string = Enum.join(generate(), "\n")
